@@ -19,10 +19,10 @@ jobs:
           name: install dependencies
           command:
             gem install bundler
-	  command:
+	 command:
             bundle install
       # run tests!
       - run:
           name: run tests
           command:
-	    bundle exec rake spec
+	   bundle exec rake spec
